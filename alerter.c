@@ -6,7 +6,7 @@ int alertFailureCount = 0;
 
 int networkAlertStub(float celcius) {
     printf("ALERT: Temperature is %.1f celcius.\n", celcius);
-    if ( celsius <= TEMPTHRESHOLD )
+    if ( celcius <= TEMPTHRESHOLD )
     {
         return 200 ;  // Return 200 for ok
     }
